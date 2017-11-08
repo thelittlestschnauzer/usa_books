@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require './lib/usa_books'
+require './lib/usa_books/cli'
+require './lib/usa_books/bestsellers'
+
+UsaBooks::CLI.new.call
