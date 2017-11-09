@@ -2,6 +2,6 @@
 
 require './lib/usa_books'
 require './lib/usa_books/cli'
-require './lib/usa_books/bestsellers'
+require './lib/usa_books/books'
 
 UsaBooks::CLI.new.call

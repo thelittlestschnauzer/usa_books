@@ -3,6 +3,7 @@ require 'open-uri'
 
 require_relative "usa_books/version"
 require_relative "usa_books/cli"
+require_relative "usa_books/books"
 
 
 module UsaBooks
