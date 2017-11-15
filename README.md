@@ -1,8 +1,7 @@
 # UsaBooks
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/usa_books`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to the USA Today Bestsellers List Ruby Gem. This gem will list the top ten best sellers listed through USA Today. Users will be provided the top ten books and then they can select the book they are interested in and the program will provide a brief description of the book selected.  
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
