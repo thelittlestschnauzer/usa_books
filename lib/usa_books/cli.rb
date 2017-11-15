@@ -1,14 +1,9 @@
-require 'colorize'
-require 'open-uri'
-require 'readline'
 
 class UsaBooks::CLI
 
   def call
     puts "Welcome to the USA Today best sellers list!".blue
     book_list
-    #select_book
-    #goodbye
   end
 
   def book_list
@@ -25,13 +20,9 @@ class UsaBooks::CLI
       input = nil
       while input != 'exit'
         puts "Enter the number of the book you would like to know more about or type list to see the books again or type exit if you are done.".green
-
-
         input = gets.strip.downcase
-        #goodbye if input.downcase == 'exit'
-         #input = input.to_i
 
-        if input.to_i > 0 #&& input < 11
+        if input.to_i > 0 
           book_name = books_arr[input.to_i-1]
           puts "#{book_name.description}".blue
         elsif input == "list"
