@@ -2,26 +2,17 @@
 
 Welcome to the USA Today Bestsellers List Ruby Gem. This gem will list the top ten best sellers listed through USA Today. Users will be provided the top ten books and then they can select the book they are interested in and the program will provide a brief description of the book selected.  
 
-
 ## Installation
 
-Add this line to your application's Gemfile:
+In your terminal please install the gem by typing the following:
 
-```ruby
-gem 'usa_books'
-```
+gem install usa_books
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install usa_books
+The usa_books CLI will then be installed and you can run the CLI by typing ./bin/usa_books in your terminal
 
 ## Usage
 
-TODO: Write usage instructions here
+Run by typing ./bin/usa_books in your terminal after installing the gem.
 
 ## Development
 
@@ -31,12 +22,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/usa_books. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at (https://github.com/thelittlestschnauzer/usa_books).
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the UsaBooks project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/usa_books/blob/master/CODE_OF_CONDUCT.md).
