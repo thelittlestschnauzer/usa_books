@@ -14,7 +14,7 @@ class UsaBooks::CLI
        "\t#{index+1}. #{book.title}"
     }
     select_book(books_arr)
-    end
+  end
 
     def select_book(books_arr)
       input = nil
@@ -22,7 +22,7 @@ class UsaBooks::CLI
         puts "Enter the number of the book you would like to know more about or type list to see the books again or type exit if you are done.".green
         input = gets.strip.downcase
 
-        if input.to_i > 0 
+        if input.to_i > 0
           book_name = books_arr[input.to_i-1]
           puts "#{book_name.description}".blue
         elsif input == "list"
@@ -34,26 +34,6 @@ class UsaBooks::CLI
         end
       end
     end
-
-    # def menu
-    #   input = nil
-    #   while input != "exit"
-    #
-    #     puts "Enter the number of the book you would like to read more about, or list to see the list of books again or you can type exit."
-    #     input = gets.strip.downcase
-    #
-    #     if input.to_i > 0
-    #       the_book = @books[input.to_i-1].title.strip
-    #       puts "#{author} writes #{the_book.description}"
-    #     elsif input == "list"
-    #       books_arr
-    #     elsif input == "exit"
-    #       goodbye
-    #     else
-    #       puts "That was not a valid selection, please type list or exit"
-    #     end
-    #   end
-    # end
 
     def goodbye
       puts "Come back and read with USA Today again!".green
